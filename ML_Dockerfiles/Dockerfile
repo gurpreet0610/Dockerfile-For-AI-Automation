@@ -15,9 +15,9 @@ RUN apt-get install  -y \
 	unzip \
 	unrar 
 
-COPY baserequirements.txt MLsbaserequirements.txt
+COPY baserequirements.txt baserequirements.txt
 RUN pip3 install --upgrade pip
-RUN pip3 install -r MLbaserequirements.txt
+RUN pip3 install -r baserequirements.txt
 ADD code_controller /root/ 
 WORKDIR  /root/
 RUN ["chmod", "+x", "script.sh"]
