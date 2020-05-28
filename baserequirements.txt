@@ -1,0 +1,14 @@
+numpy
+scipy
+pandas
+scikit-image>=0.14.2
+scikit-learn
+matplotlib
+Cython
+tqdm
+tensorflow==2.2.0
+plotly==4.4.1
+Keras==2.3.1
+opencv-python==4.1.2.30
+flask
+
